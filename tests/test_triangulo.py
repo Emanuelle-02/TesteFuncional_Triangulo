@@ -8,7 +8,7 @@ class Test:
         assert checaTriangulo(4,4,4) == "Eh triangulo"
     #Dois lados iguais
     def teste2(self):
-        assert checaTriangulo(5,5,11) == "Eh triangulo"
+        assert checaTriangulo(4,4,10) == "Eh triangulo"
     #Um dos valores sendo 0.
     def teste3(self):
         assert checaTriangulo(5,0,5) == "Nao eh triangulo"
